@@ -10,7 +10,7 @@ export function Hero() {
   }, [])
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-muted/30">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gradient-custom">
       <div className="max-w-4xl mx-auto text-center space-y-6">
         <h1
           className={`text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground text-balance transition-all duration-1000 ${
